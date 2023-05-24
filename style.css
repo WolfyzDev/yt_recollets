@@ -1,0 +1,101 @@
+body {
+	background-color: #4E5F5C;
+}
+
+
+header{
+	background: #1f6f78;
+}
+
+h1{
+	text-align: center;
+	color: #f0ece2;
+	font-size: 50px;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	float:right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+section{
+	color: white;
+        background:rgb(77, 67, 67);
+	padding: 15px;
+	padding-top: -5px;
+}
+
+footer{
+	background: #1f6f78;
+}
+
+nav ul li a.btnav{
+    text-decoration: none;
+    border:0;
+    background: #636363;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid #3baea0;
+    padding: 10px 20px;
+    outline: none;
+    color: #dfd3c3;
+    border-radius: 24px;
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+h2{
+	color : #f2eee3;
+}
+
+h3{
+	padding-left: 6px;
+	color:#fcf8f3;
+}
+
+nav ul li a.btnav:hover{
+        text-decoration: none;
+    border:0;
+    background: rgb(141, 131, 131);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f0f2eb;
+    padding: 13px 26px;
+    outline: none;
+    color: #f0ece2;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+/* Small Player */
+.video{
+    margin-left: 70px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/* Principal Section */
+
+.gen_classic{
+    background-color: #118a7e;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+a {
+    color : #3baea0;
+}

@@ -1,0 +1,123 @@
+body {
+	background-color: #4E5F5C;
+}
+
+
+header{
+	background: #1f6f78;
+}
+
+h1{
+	text-align: center;
+	color: #f0ece2;
+	font-size: 50px;
+}
+
+img.uplogo{
+    width: 35px;
+    height: 35px;
+}
+
+img.uplogo:hover{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	height: 120px;
+	float:right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+
+footer{
+	background: #1f6f78;
+}
+
+nav ul li a.btnav{
+    text-decoration: none;
+    border:0;
+    background: #636363;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid #3baea0;
+    padding: 10px 20px;
+    outline: none;
+    color: #dfd3c3;
+    border-radius: 24px;
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+h2{
+	color : #f2eee3;
+}
+
+h3{
+	padding-left: 6px;
+	color:#fcf8f3;
+}
+
+nav ul li a.btnav:hover{
+	text-decoration: none;
+    border:0;
+    background: rgb(141, 131, 131);
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #f0f2eb;
+    padding: 13px 26px;
+    outline: none;
+    color: #f0ece2;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+/* Small Player */
+
+.video {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin-right : 60px;
+}
+
+@media (min-width: 768px) {
+  .video {
+    width: 50%;
+    max-width: 400px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 20px;
+  }
+
+  .video:nth-child(2n+1) {
+    margin-right: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video {
+    width: 33.33%;
+    max-width: 300px;
+  }
+
+  .video:nth-child(2n+1) {
+    margin-right: 60px;
+  }
+
+  .video:nth-child(3n+1) {
+    margin-right: 60px;
+  }
+}

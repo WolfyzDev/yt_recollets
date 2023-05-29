@@ -30,7 +30,7 @@
     
     <?php include './templates/header.php' ?>
     
-    <section>
+<section>
         <div class="boxs">
             <h2>
                 Classiques
@@ -38,21 +38,11 @@
             <p>
                 De grands classiques, dignes de vous !
             </p>
-            <a href="classics.html" class="linkac">
+            <a href="http://ytrec.atwebpages.com/classics.php" class="linkac">
                 Accéder à la page
             </a>
         </div>
-        <div class="boxs">
-            <h2>
-                Short vidéo
-            </h2>
-            <p>
-                Pas de temps ? Les meilleurs vidéos courtes du Web.
-            </p>
-            <a href="shortvideo.html" class="linkac">
-                Accéder à la page
-            </a>
-        </div>
+        
         <div class="boxs">
             <h2>
                 Musique
@@ -60,7 +50,7 @@
             <p>
                 Ecouter les meilleurs musique du Web
             </p>
-            <a href="musique.html" class="linkac" id="content">
+            <a href="http://ytrec.atwebpages.com/musique.php" class="linkac" id="content">
                 Accéder à la page
             </a>
         </div>
@@ -68,7 +58,7 @@
             <h2>
                 Espace membre
             </h2>
-            <a href="accesmembre.html" class="linkac">
+            <a href="http://ytrec.atwebpages.com/sessions/index.php" class="linkac">
                 Se connecter / Créer un compte
             </a>
         </div>

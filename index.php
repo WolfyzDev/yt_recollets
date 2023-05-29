@@ -38,7 +38,7 @@
             <p>
                 De grands classiques, dignes de vous !
             </p>
-            <a href="http://ytrec.atwebpages.com/classics.php" class="linkac">
+            <a href="./classics.php" class="linkac">
                 Accéder à la page
             </a>
         </div>
@@ -50,7 +50,7 @@
             <p>
                 Ecouter les meilleurs musique du Web
             </p>
-            <a href="http://ytrec.atwebpages.com/musique.php" class="linkac" id="content">
+            <a href="./musique.php" class="linkac" id="content">
                 Accéder à la page
             </a>
         </div>
@@ -58,7 +58,7 @@
             <h2>
                 Espace membre
             </h2>
-            <a href="http://ytrec.atwebpages.com/sessions/index.php" class="linkac">
+            <a href="./index.php" class="linkac">
                 Se connecter / Créer un compte
             </a>
         </div>
